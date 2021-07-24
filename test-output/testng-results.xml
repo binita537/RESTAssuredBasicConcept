@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5698" started-at="2021-07-22T00:57:33 IST" finished-at="2021-07-22T00:57:39 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5698" started-at="2021-07-22T00:57:33 IST" finished-at="2021-07-22T00:57:39 IST">
+      <class name="APITest.TestTest">
+        <test-method status="PASS" signature="AddAPIMEthod(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:APITest.TestTest@6043cd28]" name="AddAPIMEthod" duration-ms="4101" started-at="2021-07-22T00:57:33 IST" data-provider="MyData" finished-at="2021-07-22T00:57:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Java]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[available]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAPIMEthod -->
+        <test-method status="PASS" signature="AddAPIMEthod(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:APITest.TestTest@6043cd28]" name="AddAPIMEthod" duration-ms="1544" started-at="2021-07-22T00:57:37 IST" data-provider="MyData" finished-at="2021-07-22T00:57:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Spring]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sold]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAPIMEthod -->
+      </class> <!-- APITest.TestTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

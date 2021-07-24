@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-21T11:36:00.144Z",
+        "line": 3,
+        "name": "Add new Book successfully",
+        "description": "",
+        "id": "add-new-books;add-new-book-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 958000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Add Books Payloads",
+            "match": {
+              "location": "com.RESTAPIAutomation.stepDefinition.stepDefinition.add_books_payloads()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2749000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User hit \"AddBookAPI\" Payload with \"Post\" Request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddBookAPI\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"Post\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.RESTAPIAutomation.stepDefinition.stepDefinition.user_hit_payload_with_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Books added successfully with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "com.RESTAPIAutomation.stepDefinition.stepDefinition.books_added_successfully_with_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 571000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify the response should have \"id\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"id\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.RESTAPIAutomation.stepDefinition.stepDefinition.verify_the_response_should_have(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add new Books",
+    "description": "",
+    "id": "add-new-books",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/com/RESTAPIAutomation/Features/Books.feature",
+    "tags": []
+  }
+]

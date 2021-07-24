@@ -1,0 +1,18 @@
+{
+  "id": 222,
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "FileFromExternal",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
